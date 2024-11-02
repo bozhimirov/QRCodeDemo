@@ -202,7 +202,7 @@ document.getElementById('userForm').addEventListener('change', async function (e
     }
 
     try {
-        const response = await fetch('http://127.0.0.1:5000/',
+        const response = await fetch('http://localhost:8080/',
             {
                 method: 'POST',
                 body: formData // No need to set Content-Type, let the browser do it
