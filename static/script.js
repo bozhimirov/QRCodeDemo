@@ -202,7 +202,7 @@ document.getElementById('userForm').addEventListener('change', async function (e
     }
 
     try {
-        const response = await fetch('http://localhost:8080/',
+        const response = await fetch('https://youthful-sallyann-bozhimirov-b38f7083.koyeb.app:8080/',
             {
                 method: 'POST',
                 body: formData // No need to set Content-Type, let the browser do it
@@ -221,7 +221,7 @@ document.getElementById('userForm').addEventListener('change', async function (e
         }
     } catch (error) {
         console.error('Error:', error);
-        alert('An error occurred while generating the QR code. Please try again.');
+        // alert('An error occurred while generating the QR code. Please try again.');
         alert(error);
     }
 });
