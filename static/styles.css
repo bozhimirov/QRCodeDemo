@@ -99,7 +99,6 @@ select {
     width: 36px;
     padding: 0;
     border: none;
-    -webkit-appearance: none;
     border-radius: 0;
     background-color: white;
 }
