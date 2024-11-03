@@ -214,7 +214,6 @@ document.getElementById('userForm').addEventListener('change', async function (e
             let currentColor = document.getElementById('color').value
             // console.log(currentColor == 'custom');
             toggleColorInputs(currentColor === 'custom');
-            // displayFill()
         } else {
             const errorMessage = await response.text();
             console.error('Error:', response.statusText, errorMessage);
@@ -223,6 +222,7 @@ document.getElementById('userForm').addEventListener('change', async function (e
     } catch (error) {
         console.error('Error:', error);
         alert('An error occurred while generating the QR code. Please try again.');
+        alert(error);
     }
 });
 
