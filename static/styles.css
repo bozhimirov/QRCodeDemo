@@ -99,8 +99,9 @@ select {
     width: 36px;
     padding: 0;
     border: none;
+    -webkit-appearance: none;
     border-radius: 0;
-    background-color: #d2d2d2;
+    background-color: white;
 }
 
 .color-section {
@@ -153,6 +154,7 @@ button:hover {
     width: 40px;
     margin: auto auto 6px auto;
 }
+
 
 
 @media (max-width: 600px) {
