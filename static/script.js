@@ -5,17 +5,17 @@ const defaultColors = {
     facebook: {
         cc: '#000000', // Center Color
         ec: '#0000ff', // Edge Color
-        bc: '#ffffff'   // Back Color
+        bc: '#dedede'   // Back Color
     },
     instagram: {
         cc: '#f9ce34', // Center Color
         ec: '#840cf6', // Edge Color
-        bc: '#ffffff'   // Back Color
+        bc: '#dedede'   // Back Color
     },
     default: {
         cc: '#000000', // Reset to default (black)
         ec: '#000000', // Reset to default (black)
-        bc: '#ffffff'  // Default back color
+        bc: '#dedede'  // Default back color
     }
 };
 
